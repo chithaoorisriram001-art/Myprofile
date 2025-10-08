@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="info-box">
+        <h1>👋 Hi, I'm <span className="highlight">Sriram</span></h1>
+        <h2>React Developer & Freelancer</h2>
+        <p className="contact">Crafting clean, modern, and responsive web applications.
+           <br /> 🚀 Turning ideas into powerful digital experiences.</p>
+
+        <div className="contact">
+          📞 <span>+91 8712412307</span> <br />
+          📧 <a href="mailto:yourname@gmail.com">chithanoori.sriram001@gmail.com</a>
+        </div>
+
+        <div className="links">
+          <a href="https://github.com/chithaoorisriram001-art" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/chithanoori-sriram-461251389" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
     </div>
   );
 }
